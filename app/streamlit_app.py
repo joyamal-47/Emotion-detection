@@ -35,7 +35,7 @@ def predict_emotion(image: Image.Image):
     return EMOTIONS[emotion_index], confidence
 
 # Streamlit UI
-st.title("😊 Emotion Detection App (No OpenCV)")
+st.title("😊 Emotion Detection App ")
 st.write("Upload an image and the CNN model will predict the emotion.")
 
 uploaded_file = st.file_uploader("Upload Image", type=["jpg", "jpeg", "png"])
